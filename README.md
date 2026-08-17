@@ -1,4 +1,4 @@
-# 🟣 Dashboard Financeiro (Nuboard)
+# 🟣 Nuboard (Dashboard Financeiro)
 
 Uma aplicação full-stack de análise de dados financeiros desenvolvida para processar, categorizar e visualizar transações de faturas da conta nubank. Este projeto demonstra a construção de um pipeline de ETL (Extract, Transform, Load) integrado a um dashboard interativo.
 
@@ -23,13 +23,12 @@ O projeto foi construído utilizando Python e foca em processamento eficiente de
 *   `app.py`: Interface de usuário (frontend) construída com Streamlit, contendo as lógicas de renderização de gráficos e KPIs.
 *   `etl.py`: Backend do projeto. Responsável por ler o CSV, aplicar as transformações com Pandas e rodar o algoritmo de categorização.
 *   `regras.json`: Arquivo de configuração que externaliza o dicionário de regras, facilitando a manutenção e a adição de novas categorias.
-*   `analisar_regras.py`: Script exploratório que tokeniza as descrições não categorizadas e conta a frequência de termos e bigramas, ajudando a retroalimentar o `regras.json`.
 
 ## 🛠️ Como executar o projeto localmente
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/murilopetegrossoperes/nuboard/new/main?filename=README.md
+git clone https://github.com/murilopetegrossoperes/nuboard.git
 ```
 2.Instale as dependências:
 ```
