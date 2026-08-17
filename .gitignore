@@ -1,0 +1,9 @@
+# Ignora os dados financeiros
+fatura.csv
+*.csv
+
+# Ignora cache e ambientes virtuais do Python
+__pycache__/
+.venv/
+venv/
+env/
